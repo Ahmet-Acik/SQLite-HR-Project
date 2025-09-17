@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Connect to the HR sample database
-conn = sqlite3.connect('../hr.db')
+conn = sqlite3.connect('hr_sample.db')
 
 # Example query: List all employees
 df = pd.read_sql_query('SELECT * FROM employees', conn)
