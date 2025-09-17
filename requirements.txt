@@ -1,0 +1,2 @@
+# Requirements for SQLite HR Project
+sqlite3
